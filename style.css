@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+     /* background-image: url(bg_all.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover; */
+ }
+
+.navbar{
+    background-color: black;
+   
+}
+
+.nav-text {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.nav-text :hover {
+    color: azure;
+    border-bottom: 2px solid white;
+}
+
+.navbar img {
+    width: 104px;
+    height: 78px;
+    margin-left: 28px;
+    margin-top: 3px;
+  }
+
+  #toggle{
+    background-color: white;
+  }
+
+  .btn_log{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 8px 24px 8px 24px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+  }
+
+  .btn_log :hover{
+    background-color: azure;
+    color: black;
+  }
+
+
+  /* hero section  */
+
+.hero_card{
+    width: 100%;
+    height: 650px;
+}
+
+.hero_text{
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  .hero_image{
+    height: 650px;
+  }
+
+  /* about section  */
+
+.about {
+    text-align: center;
+    padding: 60px 105px 60px 105px;
+    background-color: #0a0b0f;
+    color: aliceblue;
+  }
+
+
+  /* Coll */
+
+  .c_image{
+    width: 100%;
+    height: 752px;
+
+  }
+  
+  /* card  */
+  .card1 {
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    justify-content: start;
+    align-items: start;
+    margin: 45px;
+    border-radius: 15px;
+}
+
+  .card-img-top1 {
+    width: 275px;
+    height: 236px;
+    border-radius: 15px;
+  }
+
+.card-img-top1_m{
+  width: 275px;
+    height: 215px;
+    border-radius: 15px;
+}
+
+.card_div{
+  display: inline;
+  align-items: center;
+  /* padding: 0px 50px 0px 50px; */
+  background-color: #0a0b0f;
+}
+
+.card_div h1{
+  background-color: #0a0b0f;
+  text-align: center;
+  padding-top: 91px;
+  padding-bottom: 20px;
+  color:#fff;
+}
+
+.card-title1{
+  padding-top: 15px;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card-deck1{
+  background-color: #0a0b0f;
+  margin-top: -9px;
+}
+
+
+  /* footer */
+
+  footer {
+    position: absolute;
+    z-index: 2;
+    /* margin-top: 40px; */
+    color: #fff;
+  }
+  
+  footer a {
+    text-decoration: none;
+  }
+  
+  .footer {
+    padding: 30px 0px 10px 0px;
+    width: 100%;
+    background-color: rgb(10 11 15);
+  }
+  
+  /* .sm-icon {
+    font-size: 20px;
+    margin: 20px 10px;
+    color: #fff;
+    background-color: aliceblue;
+  } */
+
+
+  /* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: rgb(10 11 15);
+  color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+.fa-instagram :hover{
+  background: rgb(10 11 15);
+  color: rgb(236, 221, 232);
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: rgb(10 11 15);
+  color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+}
